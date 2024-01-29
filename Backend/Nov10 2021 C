@@ -1,0 +1,11 @@
+from datetime import date
+
+name = input("What is your name? ")
+# not necessary --> print(name)
+
+age = input("What is your age? ")
+#not necessary --> print(age)
+
+date = date.today()
+
+print (name  + ", you will be 100 years old in  " + str(int( date.year) + 100 - int(age)))

@@ -1,0 +1,10 @@
+#need to import date from datetime first
+from datetime import date
+
+name =  input(" what is your nmee? ")
+age = input(" what is your age? ")
+
+#need to define date with today's date so that it automatically knows what year it is
+date = date.today()
+print(name + " You will be 100 years old in " + str(int(date.year) + 100 - int(age)))
+

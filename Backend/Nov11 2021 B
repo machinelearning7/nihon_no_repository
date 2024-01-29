@@ -1,0 +1,13 @@
+
+x = []
+x.append(3)
+
+
+a = [1, 1, 2,3, 5, 8, 13, 21, 34, 55, 89]
+print([aa for aa in a if aa <5])
+
+#do not understand what aa stands for and yes it seems to be possible in one line despite what instructors says
+
+
+
+
